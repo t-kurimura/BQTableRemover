@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bq_table_remover"
+version = "0.1.0"
+description = ""
+authors = ["t-kurimura <takahisa.kurimura@eure.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+google-cloud-bigquery = "^1.23.1"
+google_auth_oauthlib = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
